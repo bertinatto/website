@@ -1236,8 +1236,6 @@ More details can be found [here](https://github.com/kubernetes/community/blob/ma
 
 ## Mount propagation
 
-{{< feature-state for_k8s_version="v1.10" state="beta" >}}
-
 Mount propagation allows for sharing volumes mounted by a Container to
 other Containers in the same Pod, or even to other Pods on the same node.
 
